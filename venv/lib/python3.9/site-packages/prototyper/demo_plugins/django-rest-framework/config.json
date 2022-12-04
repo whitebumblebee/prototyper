@@ -1,0 +1,18 @@
+{
+    "name": "django-rest-framework",
+    "version": "1.0",
+    "description": "Powerful and flexible toolkit for building Web APIs.",
+    "apps": [
+        {"name": "rest_framework", "models": []}
+    ],
+    "requirements": [
+        "djangorestframework"
+    ],
+    "urls": {
+        "imports": [],
+        "urls": [
+            "# path('api/', include(router.urls)),  # see http://www.django-rest-framework.org/#example",
+            "# path('api-browse/', include('rest_framework.urls'))"
+        ]
+    }
+}

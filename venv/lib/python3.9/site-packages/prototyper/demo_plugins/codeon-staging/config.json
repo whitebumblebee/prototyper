@@ -1,0 +1,11 @@
+{
+    "name": "codeon-staging",
+    "version": "1.0",
+    "description": "Codeon staging helper",
+    "apps": [
+        {"name": "staging", "models": []}
+    ],
+    "requirements": [
+        "git+https://github.com/code-on/django-staging.git"
+    ]
+}
